@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/demo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/stdName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABCD Jack"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/demo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Father's Name:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/stdFName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABCD Jack2"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/demo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mother's Name:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/stdMName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABCD Jack3"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/demo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/stdAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABCD Jack4"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
